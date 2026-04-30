@@ -1,0 +1,17 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#BFD6F4"/>
+      <stop offset="1" stop-color="#89AFDE"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect x="140" y="430" width="1000" height="210" rx="24" fill="#E9DFCE"/>
+  <circle cx="320" cy="290" r="90" fill="#F4F0E6"/>
+  <circle cx="640" cy="250" r="100" fill="#F4F0E6"/>
+  <circle cx="930" cy="300" r="85" fill="#F4F0E6"/>
+  <rect x="240" y="350" width="170" height="120" rx="20" fill="#D59C4E"/>
+  <rect x="540" y="340" width="200" height="140" rx="20" fill="#4A78B8"/>
+  <rect x="860" y="360" width="150" height="110" rx="20" fill="#56A06A"/>
+  <text x="640" y="680" text-anchor="middle" fill="#0B1A3A" font-family="Arial, sans-serif" font-size="44" font-weight="700">Imagem ilustrativa de estudantes em atividade</text>
+</svg>

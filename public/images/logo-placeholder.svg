@@ -1,0 +1,6 @@
+<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="640" rx="120" fill="#0B1A3A"/>
+  <circle cx="320" cy="250" r="92" fill="#F4F0E6"/>
+  <path d="M232 400C232 351.399 271.399 312 320 312C368.601 312 408 351.399 408 400V456H232V400Z" fill="#D5A247"/>
+  <text x="320" y="530" text-anchor="middle" fill="#F4F0E6" font-family="Arial, sans-serif" font-size="48" font-weight="700">PEDAGOGIANDO</text>
+</svg>
