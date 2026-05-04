@@ -70,7 +70,7 @@ export default function ProdutosPage() {
       {/* Products Grid */}
       <section className="py-16">
         <div className="site-container">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {products.map((product, index) => (
               <Card
                 key={product.id}
@@ -78,7 +78,7 @@ export default function ProdutosPage() {
                 style={{ animationDelay: `${index * 100}ms` }}
               >
                 <CardHeader className="p-0 relative">
-                  <div className="relative h-48 overflow-hidden">
+                  <div className="relative h-40 md:h-48 overflow-hidden">
                     <Image
                       src={product.image}
                       alt={product.name}
@@ -92,12 +92,12 @@ export default function ProdutosPage() {
                     )}
                   </div>
                 </CardHeader>
-                <CardContent className="p-6">
-                  <h3 className="text-xl font-semibold text-navy mb-2">{product.name}</h3>
-                  <p className="text-muted-foreground text-sm mb-4">{product.description}</p>
-                  <p className="text-2xl font-bold text-gold">{product.price}</p>
+                <CardContent className="p-4 md:p-6">
+                  <h3 className="text-base md:text-xl font-semibold text-navy mb-2">{product.name}</h3>
+                  <p className="text-muted-foreground text-sm mb-3 md:mb-4">{product.description}</p>
+                  <p className="text-xl md:text-2xl font-bold text-gold">{product.price}</p>
                 </CardContent>
-                <CardFooter className="p-6 pt-0">
+                <CardFooter className="p-4 md:p-6 pt-0">
                   <Button className="w-full bg-navy hover:bg-navy-light text-white font-semibold rounded-full transition-colors">
                     Comprar agora
                   </Button>
